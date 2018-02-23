@@ -1,0 +1,30 @@
+{
+  "name": "giphyapi",
+  "version": "1.0.0",
+  "description": "<img src=\"http://montanacodeschool.com/wp-content/uploads/2016/08/MCS_LOGO_v1-1.png\" width=\"200\" align=\"right\"/>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "node node_modules/nodemon/bin/nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErinAngelita/giphyAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErinAngelita/giphyAPI/issues"
+  },
+  "homepage": "https://github.com/ErinAngelita/giphyAPI#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.14.12",
+    "plugins": "^0.4.2"
+  }
+}
